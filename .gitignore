@@ -1,0 +1,34 @@
+# Dependências Node
+node_modules/
+.pnp
+.pnp.js
+
+# Build da Aplicação
+dist/
+build/
+out/
+
+# Variáveis de Ambiente (Segredos e Senhas)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Banco de Dados Local (evita deletar os dados no servidor)
+*.sqlite
+*.db
+backend/database.sqlite
+
+# Logs e Arquivos Temporários
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.log
+coverage/
+.tempmediaStorage/
+
+# Configurações de Editores de Código
+.vscode/
+.idea/
